@@ -1,0 +1,410 @@
+body{
+    background: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    border-radius: 0 !important;
+  }
+
+
+  nav ul li:hover {
+    background-color: #e7e7e7;
+ }
+
+ // FIXTURE CARD STYLING
+ .ot-fixture-card{
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    
+    .fixture-card-header{
+        font-size: 16px;
+        font-weight: 500;
+        padding-top: 8px;
+        padding-left: 12px;
+
+        #fixture-date{
+            color: white;
+        }
+
+        #fixture-competition{
+            color: grey;
+        }
+    }
+
+    .fixture-card-versus{
+        border-top: 1px solid rgb(211, 211, 211);
+        border-bottom: 1px solid rgb(211, 211, 211);
+        padding-top: 10px;
+        font-size: 18px;
+        img{
+            max-height: 75px;
+        }
+
+        #fixture-versus{
+            color: grey;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #fixture-united{
+            margin-left: 15px;
+        }
+
+        #fixture-teams{
+            margin-top: 20px;
+            color: white;
+            font-weight: 500;
+        }
+ 
+    }
+
+    .fixture-card-footer{
+        padding-bottom: 10px;
+        
+        #fixture-ticket-info{
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+    }
+ }
+// END OF FIXTURE CARD STYLING
+
+.ot-section-title{
+background: red;
+text-transform: uppercase;
+margin-bottom: 10px;
+    h2{
+        padding: 2px 2px 2px 10px;
+        color: white;
+    }
+}
+
+.social-row{
+    padding-left: 15px;
+}
+
+// TOP CARDS STYLING
+.ot-top-card{
+    min-height: 320px;
+    width: 100%;
+    height: 50%;
+    background: white;
+    margin: 10px 40px 20px 0px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    img{
+        max-height: 400px;
+        width: 100%;
+    }
+
+    .main-header{
+        color: black;
+        padding-left: 12px;
+        width:auto;
+    }
+
+    .main-article-type{
+        padding-left: 12px;
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: #575757;
+    }
+
+    .main-subtitle{
+        padding-left: 12px;
+        padding-right: 5px;
+        color: rgb(126, 126, 126);;
+        font-size: 1.5rem;
+        width:auto;
+    }
+}
+
+.ot-top-card-dark{
+    min-height: 320px;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background-blend-mode: multiply;
+    margin: 10px 40px 20px 0px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    img{
+        max-height: 400px;
+        max-width: 80%;
+        margin-top: 15px;
+    }
+
+    .main-header{
+        color: #f2f2f2;
+        padding-left: 12px;
+        text-transform: uppercase;
+        width:auto;
+    }
+
+    .main-article-type{
+        margin-top: 20px;
+        padding-left: 12px;
+        font-weight: 500;
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        color: #f2f2f2;
+    }
+
+    .main-subtitle{
+        margin-top: 20px;
+        padding-left: 12px;
+        padding-right: 5px;
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        width:auto;
+    }
+}
+// END OF TOP CARD STYLING
+
+// 
+.ot-top-articles{
+            .ot-top-card{
+            min-height: 375px;
+            width: 100%;
+            height: 50%;
+            background: white;
+            margin: 10px 40px 20px 0px;
+            -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            display: inline-block;
+            
+            img{
+                max-height: 400px;
+                width: 100%;
+            }
+
+            .main-header{
+                color: black;
+                padding-left: 12px;
+                width:auto;
+            }
+
+            .main-article-type{
+                padding-left: 12px;
+                font-weight: 500;
+                font-size: 1.25rem;
+                color: #575757;
+            }
+
+            .main-subtitle{
+                padding-left: 12px;
+                padding-right: 5px;
+                color: rgb(126, 126, 126);
+                font-size: 1.5rem;
+                width:auto;
+            }
+        }
+    }
+
+.ot-header{
+    background: #2d2d2d;
+    
+    #logo-main{
+    display: block;
+    height: 120px;
+    }
+    
+    #navbar-primary.navbar-default {
+        background: #1c1c1c;
+        border: none;
+        padding: 0;
+        margin: 0;
+        .navbar-nav { 
+        width: 100%;
+        text-align: center;
+        > li {
+        display: inline-block;
+        float: none;
+            > a {
+            padding-left: 30px;
+            padding-right: 30px;
+              }
+          }
+        }
+    }
+}
+
+.ot-content{
+    .ot-hero-article{
+        .carousel-control.left, .carousel-control.right {
+            background-image: none
+        }
+        .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+            display: block;
+            height: auto;
+            max-width: 100%;
+            line-height: 1;
+            width: 100%; // Add this
+        }
+        .carousel-caption{
+            h3{
+                font-size: 5rem;
+            }
+            p{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+
+.ot-top-card:hover {
+    img{
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+    }
+}
+
+.ot-main-card:hover {
+    img{
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+    }
+}
+
+.ot-main-content{
+    margin-top: 50px;
+    background: #f2f2f2;
+ 
+    .ot-main-news{
+
+        .ot-no-hover{
+            text-decoration: none;
+        }
+
+        .ot-main-article{
+              
+            .ot-main-card{
+
+                width: 100%;
+                height: 100%;
+                background: white;
+                margin: 10px 0px 10px 0px;
+                -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+                -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+                box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+                img{
+                    max-height: 450px;
+                    width: 100%;
+                }          
+
+                .main-header{
+                    color: black;
+                    padding-left: 12px;
+                    width:auto;
+                }
+
+                .main-article-type{
+                    padding-left: 12px;
+                    font-weight: 500;
+                    font-size: 1.25rem;
+                    color: #575757;
+                }
+
+                .main-subtitle{
+                    padding-left: 12px;
+                    padding-right: 5px;
+                    color: rgb(126, 126, 126);;
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    width:auto;
+                }
+                
+            }
+
+            
+        }
+    }
+
+    .ot-digital-membership{
+        .ot-digital-membership{
+            .ot-membership-card{
+                background: red;
+            }
+        }
+    }
+
+    .ot-media-section{
+        .ot-media-main{
+            height: 275px;
+            width: 100%;
+            background: white;
+            margin-bottom: 15px;
+
+            img{
+                height: 275px;
+                width: 100%;
+                margin-left: -15px;
+            }
+
+            #ot-media-subtitle{
+                font-size: 1.25rem; 
+                color:rgb(126, 126, 126);
+            }
+        }
+    }
+
+    .ot-social-section{
+        .ot-twitter-card{
+            width: 100%;
+            height: 50%;
+            background: white;
+            margin-bottom: 15px;
+            -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            .ot-card-header{
+                img{
+                    padding: 20px 0px 0px 15px;
+                    float: left;
+                }
+                .ot-card-header-info{
+                    display: inline-block;
+                    #tweet-content{
+                        color: rgb(126, 126, 126);
+                    }
+                    #tweet-time-ago{
+                        font-size: 1rem;
+                        padding: 20px 0px 0px 5px;
+                    }
+                    #tweet-username{
+                        font-size: 1.5rem;
+                        padding: 0px 0px 0px 5px;
+                        font-weight: 500;
+                        margin-top: -10px;
+                    }
+                    #tweet-socialId{
+                        font-size: 1.25rem;
+                        padding: 0px 0px 0px 5px;
+                        margin-top: -10px;
+                    }
+
+                }
+
+                .ot-card-content-info{
+                    display: block;
+                    padding: 15px 5px 5px 5px;
+                }
+            }
+        }
+    }
+    
+}
+
+    
+
+
+
+
