@@ -344,15 +344,23 @@ margin-bottom: 10px;
 
     .ot-media-section{
         .ot-media-main{
-            height: 275px;
+            height: 295px;
             width: 100%;
             background: white;
             margin-bottom: 15px;
+            -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
 
             img{
-                height: 275px;
+                height: 295px;
                 width: 100%;
                 margin-left: -15px;
+                
+                &:hover{
+                    opacity: 0.3;
+                    filter: alpha(opacity=30);
+                }
             }
 
             #ot-media-subtitle{
