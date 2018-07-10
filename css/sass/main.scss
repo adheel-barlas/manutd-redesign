@@ -382,6 +382,9 @@ margin-bottom: 10px;
                     display: inline-block;
                     #tweet-content{
                         color: rgb(126, 126, 126);
+                        p{
+                            padding-left: 2px;
+                        }
                     }
                     #tweet-time-ago{
                         font-size: 1rem;
