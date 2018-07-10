@@ -6,9 +6,6 @@ var beforeScroll = 0;
 var afterScroll;
 var $navbar = $('.navbar');
 
-
-
-
 // find current position
 $(window).on("scroll", function(){
   

@@ -61,13 +61,19 @@ body{
 
     .fixture-card-footer{
         padding-bottom: 10px;
-        
-        #fixture-ticket-info{
-            margin-left: 15px;
-            margin-top: 10px;
-        }
-
     }
+
+    .fixture-card-cta{
+        background: transparent;
+        border: transparent;
+        color: white;
+        font-size: 15px;
+        padding: 7px 0px 0px 10px;
+
+        &:hover{
+            color: grey;
+        }
+    }   
  }
 // END OF FIXTURE CARD STYLING
 
