@@ -219,11 +219,13 @@ margin-bottom: 10px;
     background: #2d2d2d;
     
     #logo-main{
-    display: block;
-    height: 120px;
+        display: block;
+        height: 120px;
     }
-    
-    #navbar-primary.navbar-default {
+
+    .navbar{
+        margin: 0px;
+        padding: 0px;
         background: #1c1c1c;
         border: none;
         padding: 0;
@@ -241,7 +243,34 @@ margin-bottom: 10px;
           }
         }
     }
+
+    @media (max-width: 1150px) {
+        .navbar-header {
+            float: none;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
 }
+
 
 .ot-content{
     .ot-hero-article{
