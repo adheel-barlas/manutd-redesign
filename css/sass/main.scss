@@ -4,6 +4,13 @@
 body{
     background: $bg-grey;
     font-family: 'Roboto', sans-serif;
+
+    img{
+        &:hover{
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+        }
+    }
 }
 
 * {
@@ -274,7 +281,6 @@ margin-bottom: 10px;
     }
 }
 
-
 .ot-content{
     .ot-hero-article{
         .carousel-control.left, .carousel-control.right {
@@ -388,11 +394,6 @@ margin-bottom: 10px;
                 height: 295px;
                 width: 100%;
                 margin-left: -15px;
-                
-                &:hover{
-                    opacity: 0.3;
-                    filter: alpha(opacity=30);
-                }
             }
 
             #ot-media-subtitle{
