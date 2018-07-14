@@ -1,5 +1,8 @@
+@import "utilities/variables";
+
+
 body{
-    background: #f3f3f3;
+    background: $bg-grey;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -9,14 +12,14 @@ body{
 
 
   nav ul li:hover {
-    background-color: #e7e7e7;
+    background-color: $nav-hover;
  }
 
  // FIXTURE CARD STYLING
  .ot-fixture-card{
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background: $bg-card-dark;
     background-blend-mode: multiply;
-    
+     
     .fixture-card-header{
         font-size: 16px;
         font-weight: 500;
@@ -24,11 +27,11 @@ body{
         padding-left: 12px;
 
         #fixture-date{
-            color: white;
+            color: $white;
         }
 
         #fixture-competition{
-            color: grey;
+            color: $grey;
         }
     }
 
@@ -42,7 +45,7 @@ body{
         }
 
         #fixture-versus{
-            color: grey;
+            color: $grey;
             padding-left: 10px;
             padding-right: 10px;
         }
@@ -53,7 +56,7 @@ body{
 
         #fixture-teams{
             margin-top: 20px;
-            color: white;
+            color: $white;
             font-weight: 500;
         }
  
@@ -66,24 +69,24 @@ body{
     .fixture-card-cta{
         background: transparent;
         border: transparent;
-        color: white;
+        color: $white;
         font-size: 15px;
         padding: 7px 0px 0px 10px;
 
         &:hover{
-            color: grey;
+            color: $grey;
         }
     }   
  }
 // END OF FIXTURE CARD STYLING
 
 .ot-section-title{
-background: red;
+background: $bg-red;
 text-transform: uppercase;
 margin-bottom: 10px;
     h2{
         padding: 2px 2px 2px 10px;
-        color: white;
+        color: $white;
     }
 }
 
@@ -96,7 +99,7 @@ margin-bottom: 10px;
     min-height: 320px;
     width: 100%;
     height: 50%;
-    background: white;
+    background: $white;
     margin: 10px 40px 20px 0px;
     -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -108,7 +111,7 @@ margin-bottom: 10px;
     }
 
     .main-header{
-        color: black;
+        color: $black;
         padding-left: 12px;
         width:auto;
     }
@@ -117,13 +120,13 @@ margin-bottom: 10px;
         padding-left: 12px;
         font-weight: 500;
         font-size: 1.25rem;
-        color: #575757;
+        color: $txt-grey;
     }
 
     .main-subtitle{
         padding-left: 12px;
         padding-right: 5px;
-        color: rgb(126, 126, 126);;
+        color: $txt-grey;
         font-size: 1.5rem;
         width:auto;
     }
@@ -133,7 +136,7 @@ margin-bottom: 10px;
     min-height: 320px;
     width: 100%;
     height: 50%;
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+    background: $bg-card-dark;
     background-blend-mode: multiply;
     margin: 10px 40px 20px 0px;
     -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -147,7 +150,7 @@ margin-bottom: 10px;
     }
 
     .main-header{
-        color: #f2f2f2;
+        color: $txt-light-grey;
         padding-left: 12px;
         text-transform: uppercase;
         width:auto;
@@ -159,14 +162,14 @@ margin-bottom: 10px;
         font-weight: 500;
         font-size: 1.75rem;
         text-transform: uppercase;
-        color: #f2f2f2;
+        color: $txt-light-grey;
     }
 
     .main-subtitle{
         margin-top: 20px;
         padding-left: 12px;
         padding-right: 5px;
-        color: white;
+        color: $white;
         font-size: 2rem;
         text-transform: uppercase;
         width:auto;
@@ -180,7 +183,7 @@ margin-bottom: 10px;
             min-height: 375px;
             width: 100%;
             height: 50%;
-            background: white;
+            background: $white;
             margin: 10px 40px 20px 0px;
             -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
             -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -193,7 +196,7 @@ margin-bottom: 10px;
             }
 
             .main-header{
-                color: black;
+                color: $black;
                 padding-left: 12px;
                 width:auto;
             }
@@ -202,13 +205,13 @@ margin-bottom: 10px;
                 padding-left: 12px;
                 font-weight: 500;
                 font-size: 1.25rem;
-                color: #575757;
+                color: $txt-grey;
             }
 
             .main-subtitle{
                 padding-left: 12px;
                 padding-right: 5px;
-                color: rgb(126, 126, 126);
+                color: $txt-grey;
                 font-size: 1.5rem;
                 width:auto;
             }
@@ -216,7 +219,7 @@ margin-bottom: 10px;
     }
 
 .ot-header{
-    background: #2d2d2d;
+    background: $bg-dark-grey;
     
     #logo-main{
         display: block;
@@ -226,7 +229,7 @@ margin-bottom: 10px;
     .navbar{
         margin: 0px;
         padding: 0px;
-        background: #1c1c1c;
+        background: $nav-bg;
         border: none;
         padding: 0;
         margin: 0;
@@ -325,7 +328,7 @@ margin-bottom: 10px;
 
                 width: 100%;
                 height: 100%;
-                background: white;
+                background: $white;
                 margin: 10px 0px 10px 0px;
                 -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
                 -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -336,7 +339,7 @@ margin-bottom: 10px;
                 }          
 
                 .main-header{
-                    color: black;
+                    color: $black;
                     padding-left: 12px;
                     width:auto;
                 }
@@ -345,13 +348,13 @@ margin-bottom: 10px;
                     padding-left: 12px;
                     font-weight: 500;
                     font-size: 1.25rem;
-                    color: #575757;
+                    color: $txt-grey;
                 }
 
                 .main-subtitle{
                     padding-left: 12px;
                     padding-right: 5px;
-                    color: rgb(126, 126, 126);;
+                    color: $txt-grey;
                     font-size: 1.5rem;
                     font-weight: 400;
                     width:auto;
@@ -366,7 +369,7 @@ margin-bottom: 10px;
     .ot-digital-membership{
         .ot-digital-membership{
             .ot-membership-card{
-                background: red;
+                background: $bg-red;
             }
         }
     }
@@ -375,7 +378,7 @@ margin-bottom: 10px;
         .ot-media-main{
             height: 295px;
             width: 100%;
-            background: white;
+            background: $white;
             margin-bottom: 15px;
             -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
             -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -394,7 +397,7 @@ margin-bottom: 10px;
 
             #ot-media-subtitle{
                 font-size: 1.25rem; 
-                color:rgb(126, 126, 126);
+                color: $txt-grey;
             }
         }
     }
@@ -403,7 +406,7 @@ margin-bottom: 10px;
         .ot-twitter-card{
             width: 100%;
             height: 50%;
-            background: white;
+            background: $white;
             margin-bottom: 15px;
             -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
             -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -418,7 +421,7 @@ margin-bottom: 10px;
                 .ot-card-header-info{
                     display: inline-block;
                     #tweet-content{
-                        color: rgb(126, 126, 126);
+                        color: $txt-grey;
                         p{
                             padding-left: 2px;
                         }
