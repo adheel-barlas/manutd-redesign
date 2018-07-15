@@ -1,16 +1,10 @@
 @import "utilities/variables";
 
 
+
 body{
     background: $bg-grey;
     font-family: 'Roboto', sans-serif;
-
-    img{
-        &:hover{
-            opacity: 0.3;
-            filter: alpha(opacity=30);
-        }
-    }
 }
 
 * {
@@ -21,6 +15,8 @@ body{
   nav ul li:hover {
     background-color: $nav-hover;
  }
+
+
 
  // FIXTURE CARD STYLING
  .ot-fixture-card{
@@ -325,7 +321,13 @@ margin-bottom: 10px;
     .ot-main-news{
 
         .ot-no-hover{
-            text-decoration: none;
+            text-decoration: none !important;
+            img{
+                &:hover{
+                    filter: none !important;
+                    opacity: 0 !important;
+                }
+            }
         }
 
         .ot-main-article{
@@ -394,8 +396,12 @@ margin-bottom: 10px;
                 height: 295px;
                 width: 100%;
                 margin-left: -15px;
+                &:hover{
+                    opacity: 0.3;
+                    filter: alpha(opacity=30);
+                }
             }
-            
+
             h3{
                 color: $black;
             }
@@ -424,6 +430,10 @@ margin-bottom: 10px;
                     float: left;
                     height: 84px;
                     width: 84px;
+                    &:hover{
+                        opacity: 0.3;
+                        filter: alpha(opacity=30);
+                    }
                 }
                 .ot-card-header-info{
                     display: inline-block;
