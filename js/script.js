@@ -29,3 +29,9 @@ $(window).on("scroll", function(){
   beforeScroll = afterScroll;
   
 });
+
+
+// Navigation open menu on handle
+$('.handle').on('click', function(){
+  $('nav ul').toggleClass('showing');
+});
