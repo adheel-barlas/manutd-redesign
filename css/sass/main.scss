@@ -176,7 +176,6 @@ margin-bottom: 10px;
 }
 // END OF TOP CARD STYLING
 
-// 
 .ot-top-articles{
         .ot-top-card{
         min-height: 375px;
@@ -217,7 +216,6 @@ margin-bottom: 10px;
 
 .ot-header{
     background: $bg-dark-grey;
-    
     
     #logo-main{
         display: block;
@@ -289,7 +287,6 @@ margin-bottom: 10px;
         }
         
     }
-    
 }
 
 .ot-content{
@@ -302,7 +299,7 @@ margin-bottom: 10px;
             height: auto;
             max-width: 100%;
             line-height: 1;
-            width: 100%; // Add this
+            width: 100%;
         }
     }
 }
