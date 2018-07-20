@@ -228,25 +228,25 @@ margin-bottom: 10px;
         display:none;
     }
     
-    @media screen and (max-width:580px){
+    @media screen and (max-width:850px){
         
         nav ul {
-        max-height:0;
+            max-height:0;
         }
         
         .showing {
-        max-height:20em;
+            max-height:20em;
         }
         nav ul li {
-        font-size: $paragraph-font-size-sm;
-        width:100%;
-        box-sizing:border-box;
-        padding:15px;
-        text-align:left;
+            font-size: $paragraph-font-size-sm;
+            width:100%;
+            box-sizing:border-box;
+            padding:15px;
+            text-align:left;
         }
         
         .handle {
-        display:block;
+            display:block;
         }
         
     }
